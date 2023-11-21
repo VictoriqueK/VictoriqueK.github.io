@@ -10,9 +10,7 @@ from itertools import zip_longest # Used for writing down numbers in .csv file
 
 # Prompt
 
-if os.path.exists(os.path.dirname(os.path.abspath(__file__)) + '\\Decoded .bin files\\') == 0:
-    os.makedirs(os.path.dirname(os.path.abspath(__file__)) + '\\Decoded .bin files\\')
-
+BinaryDecoded = open('/storage/emulated/0/SAS4 VIP/GameData/Decoded .bin files/weapons.csv', "w", newline="")
 print('Availble commands:')
 print('')
 print('1. Weapons.bin')
